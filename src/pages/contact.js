@@ -1,29 +1,28 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 
-export default function About() {
+export default function Contact() {
     return (
         <>
             <Head>
                 <title>
-                    O meni
+                    Kontakt
                 </title>
-
             </Head>
-            <AboutContainer>
-                <AboutText>
-                    O meni
-                </AboutText>
-            </AboutContainer>
+            <ContactContainer>
+                <ContactText>
+                    Kontakt
+                </ContactText>
+            </ContactContainer>
         </>
     )
 }
 
-const AboutContainer = styled.div`
+const ContactContainer = styled.div`
     background: #FBF3EB;
     height: 100%;
     width: 100%;
 `
-const AboutText = styled.h1`
+const ContactText = styled.h1`
     color:#000000;
 `

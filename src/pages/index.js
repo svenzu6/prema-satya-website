@@ -1,14 +1,18 @@
 import Head from 'next/head'
-import {Home} from "../modules/Home/Home"
+
+import Home from '../modules/Home/Home.js'
 
 export default function HomePage() {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Home />
-    </div>
-  )
+    return (
+        <>
+            <Head>
+                <title>
+                    Prema-Satya
+                </title>
+
+            </Head>
+            <Home />
+
+        </>
+    )
 }
