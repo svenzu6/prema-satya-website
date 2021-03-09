@@ -3,7 +3,7 @@ import Head from 'next/head'
 import {
     ContactContainer,
     ContactText,
-} from './Styles/contactStyle'
+} from './Styles/contact.styles'
 
 export default function Contact() {
     return (

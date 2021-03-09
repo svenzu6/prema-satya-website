@@ -6,6 +6,7 @@ export const LayoutRoot = styled.div`
     flex-direction: column;
     justify-content: flex-start;
 `
+
 export const GlobalStyles = createGlobalStyle`
   html, body {
     height: 100%;
@@ -21,6 +22,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   p {
     margin: 0;
+  }
+  h1 {
+    margin: 0
   }
   #__next {
     display:flex;

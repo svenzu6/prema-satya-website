@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const NavRoot = styled.div`
-    height: 80px;
-    background : #C5DBBB;
+    height: 60px;
+    min-height:60px;
+    background : #ffffff;
     color: white;
     display:flex;
     justify-content:space-between;
@@ -12,18 +13,20 @@ export const NavRoot = styled.div`
 	top: 0;
 `
 export const NavbarRightSide = styled.div`
-    font-family: "Karla";
+    font-family: "Karla-Extra-Light";
     column-gap: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size:large;
+    grid-template-columns: repeat(3, 1fr);
+    font-size:25px;
 `
 export const NavbarLeftSide = styled.div`
-    column-gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 `
 export const NavTitle = styled.a`
-    font-size:5vh;
-    font-family: "Karla";
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: "Karla-Extra-Light";
 `

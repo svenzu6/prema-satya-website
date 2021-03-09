@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
 export const FooterSection = styled.div`
-    background: #C5DBBB;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     height:60px;
     display:flex;
     justify-content:center;
     align-items:center;
-    width: 100%;   
+    width: 100%;  
+    min-height:60px; 
+    border-top:1px solid #cecece;
 `

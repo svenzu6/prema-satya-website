@@ -14,9 +14,9 @@ const Navbar = () => {
         <NavRoot>
             <NavbarLeftSide>
                 <Image
-                    height={30}
+                    height={45}
                     src="/icons/herbs.svg"
-                    width={30}
+                    width={45}
                 />
                 <Link
                     href="/"

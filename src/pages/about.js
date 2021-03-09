@@ -3,7 +3,7 @@ import Head from 'next/head'
 import {
     AboutContainer,
     AboutText,
-} from './Styles/aboutStyle'
+} from './Styles/about.styles'
 
 export default function About() {
     return (
