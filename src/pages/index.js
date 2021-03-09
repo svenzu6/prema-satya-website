@@ -9,10 +9,8 @@ export default function HomePage() {
                 <title>
                     Prema-Satya
                 </title>
-
             </Head>
             <Home />
-
         </>
     )
 }

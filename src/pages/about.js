@@ -8,7 +8,6 @@ export default function About() {
                 <title>
                     O meni
                 </title>
-
             </Head>
             <AboutContainer>
                 <AboutText>
