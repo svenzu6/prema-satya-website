@@ -1,5 +1,9 @@
 import Head from 'next/head'
-import styled from 'styled-components'
+
+import {
+    AboutContainer,
+    AboutText,
+} from './Styles/aboutStyle'
 
 export default function About() {
     return (
@@ -17,12 +21,3 @@ export default function About() {
         </>
     )
 }
-
-const AboutContainer = styled.div`
-    background: #FBF3EB;
-    height: 100%;
-    width: 100%;
-`
-const AboutText = styled.h1`
-    color:#000000;
-`

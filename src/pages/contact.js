@@ -1,5 +1,9 @@
 import Head from 'next/head'
-import styled from 'styled-components'
+
+import {
+    ContactContainer,
+    ContactText,
+} from './Styles/contactStyle'
 
 export default function Contact() {
     return (
@@ -17,12 +21,3 @@ export default function Contact() {
         </>
     )
 }
-
-const ContactContainer = styled.div`
-    background: #FBF3EB;
-    height: 100%;
-    width: 100%;
-`
-const ContactText = styled.h1`
-    color:#000000;
-`

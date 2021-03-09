@@ -39,7 +39,6 @@ class CustomDocument extends Document {
             sheet.seal()
         }
     }
-
     render() {
         return (
             <Html>
@@ -62,5 +61,4 @@ class CustomDocument extends Document {
     }
 
 }
-
 export default CustomDocument
