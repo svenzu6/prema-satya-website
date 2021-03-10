@@ -10,7 +10,7 @@ export const HomeCards = () => {
     return (
         <HomeCardsRoot>
             <HomeCardsTitle>
-                Lijecenje homeopatijom i promicanje svjesnog zivljenja
+                Sto vam homeopatija nudi?
             </HomeCardsTitle>
             <HomeCardsWrapper>
                 <HomeCard
@@ -22,18 +22,18 @@ export const HomeCards = () => {
                 />
                 <HomeCard
                     description="
+                            Homeopatski pripravci su
+                            prirodini i koriste se u lijecenju
+                            akutnih i kronicnih tegoba
+                        "
+                    title="Lijekovi"
+                />
+                <HomeCard
+                    description="
                             Homeopatija nudi njezan i efikasan
                             pristup lijecenju
                         "
                     title="Lijecenje"
-                />
-                <HomeCard
-                    description="
-                            Homeopatiski privaci su
-                            prirodini i koriste se u liencenju
-                            aktualnih i kornicnih tegoba
-                        "
-                    title="Lijekovi"
                 />
             </HomeCardsWrapper>
         </HomeCardsRoot>

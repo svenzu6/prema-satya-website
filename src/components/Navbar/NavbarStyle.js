@@ -3,21 +3,24 @@ import styled from 'styled-components'
 export const NavRoot = styled.div`
     height: 60px;
     min-height:60px;
-    background : #ffffff;
-    color: white;
+    background : #ffffff; 
     display:flex;
     justify-content:space-between;
     align-items: center;
     padding: 10px 20px;
 	position: sticky;
 	top: 0;
+    /* background-color:transparent;
+    transition:background-color 0.3s linear 0s,box-shadow 0.3 linear 0s,color 0.2;
+    box-shadow:none;
+    z-index:800; */
 `
 export const NavbarRightSide = styled.div`
     font-family: "Karla-Extra-Light";
     column-gap: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    font-size:25px;
+    font-size:20px;
 `
 export const NavbarLeftSide = styled.div`
     display: flex;

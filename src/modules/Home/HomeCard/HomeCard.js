@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import {
     HomeCardDescription,
     HomeCardRoot,
@@ -12,6 +14,11 @@ export const HomeCard = (props) => {
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.1 }}
         >
+            <Image
+                height={200}
+                src="/icons/blob.svg"
+                width={200}
+            />
             <HomeCardTitle>
                 {title}
             </HomeCardTitle>

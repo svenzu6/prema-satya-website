@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -13,11 +12,6 @@ const Navbar = () => {
     return (
         <NavRoot>
             <NavbarLeftSide>
-                <Image
-                    height={45}
-                    src="/icons/herbs.svg"
-                    width={45}
-                />
                 <Link
                     href="/"
                     passHref={true}

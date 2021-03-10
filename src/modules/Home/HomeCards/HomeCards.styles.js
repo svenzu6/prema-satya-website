@@ -10,10 +10,9 @@ export const HomeCardsRoot = styled.div`
 export const HomeCardsTitle = styled.h1`
     color:#000000;
     font-family:"Karla";
-    font-size:xx-large;    
+    font-size:xx-large;     
     margin-bottom: 100px;   
 `
-
 export const HomeCardsWrapper = styled(motion.div)`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
