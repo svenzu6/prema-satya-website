@@ -5,7 +5,7 @@ import {
     FaqText,
 } from './Styles/faq.styles'
 
-export default function About() {
+export default function Faq() {
     return (
         <>
             <Head>

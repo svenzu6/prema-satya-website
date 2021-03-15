@@ -6,6 +6,6 @@ export const ContactContainer = styled.div`
     width: 100%;
     
 `
-export const ContactText = styled.h1`
+export const ContactText = styled.p`
     color:#000000;
 `

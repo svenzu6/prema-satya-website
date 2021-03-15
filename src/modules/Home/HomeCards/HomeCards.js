@@ -1,6 +1,7 @@
 import { HomeCard } from '../HomeCard/HomeCard'
 
 import {
+    HomeCardButton,
     HomeCardsRoot,
     HomeCardsTitle,
     HomeCardsWrapper,
@@ -10,7 +11,7 @@ export const HomeCards = () => {
     return (
         <HomeCardsRoot>
             <HomeCardsTitle>
-                Sto vam homeopatija nudi?
+                Postupak homeopatskog lijecenja
             </HomeCardsTitle>
             <HomeCardsWrapper>
                 <HomeCard
@@ -18,7 +19,11 @@ export const HomeCards = () => {
                             Rado cu vam pomoci u lijecenju
                             tijela, uma i emocija
                         "
-                    title="Savjetovanje"
+                    iconName="counselor"
+                    imageName="blob"
+                    linkDescription="saznaj vise"
+                    linkPage="consultation"
+                    title="Uzimanje slucaja"
                 />
                 <HomeCard
                     description="
@@ -26,13 +31,17 @@ export const HomeCards = () => {
                             prirodini i koriste se u lijecenju
                             akutnih i kronicnih tegoba
                         "
-                    title="Lijekovi"
+                    linkDescription="saznaj vise"
+                    linkPage="medicine"
+                    title="Odabir lijeka"
                 />
                 <HomeCard
                     description="
                             Homeopatija nudi njezan i efikasan
                             pristup lijecenju
                         "
+                    linkDescription="saznaj vise"
+                    linkPage="importance"
                     title="Lijecenje"
                 />
             </HomeCardsWrapper>

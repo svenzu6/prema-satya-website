@@ -10,10 +10,14 @@ export const NavRoot = styled.div`
     padding: 10px 20px;
 	position: sticky;
 	top: 0;
-    /* background-color:transparent;
-    transition:background-color 0.3s linear 0s,box-shadow 0.3 linear 0s,color 0.2;
+    color:#000000;
+    background-color:white;
     box-shadow:none;
-    z-index:800; */
+    z-index:800;
+    /* transition:color 0.4s ease 0s, background-color 0.4s ease 0s;
+    transition: font: #ffffff; background-color:transparent;
+    &:hover {color:white; background-color:white;
+    }; */
 `
 export const NavbarRightSide = styled.div`
     font-family: "Karla-Extra-Light";

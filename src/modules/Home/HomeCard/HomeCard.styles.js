@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import styled from 'styled-components'
 
 export const HomeCardRoot = styled(motion.div)`
-    background-color:rgb(241, 87, 75);
+    /* background-color: ${(props) => (props.isDisabled ? 'red' : 'green')}; */
     border-radius:25px;
     display:flex;
     padding: 30px;
@@ -11,10 +11,9 @@ export const HomeCardRoot = styled(motion.div)`
     justify-content:center;
     height: 350px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    font-family:"Karla"; 
-    position:relative;
-    /* background-size: cover;   
-    background-image:linear-gradient(#d6ada96b,#00000085),url("/images/advice.jpg");  */
+    font-family:"Karla-Extra-Light";
+    position: relative;
+    background-color:#9aa37b;
 `
 
 export const HomeCardTitle = styled.h2`

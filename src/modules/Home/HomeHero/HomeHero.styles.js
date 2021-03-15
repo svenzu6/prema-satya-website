@@ -31,21 +31,31 @@ export const HomeHeroButtonWrapper = styled.div`
     justify-content: space-around;
     padding:60px;  
 `
+
 export const HomeHeroButtonLeft = styled.button`
-    background-color: rgb(241, 87, 75);
+    background-color: #9aa37b;
     border-radius: 6.25rem;
     color: #ffffff;
     font-family: "Karla-Extra-Light";  
     padding: 1.125rem 2.5rem;
-    border: 0.125rem solid rgb(241, 87, 75);
-    font-size:15px;
+    border: 0.125rem solid #9aa37b;
+    font-size:18px;
+    transition:color 0.4s ease 0s, background-color 0.4s ease 0s;
+    &:hover {color:black; background-color:white;
+    };
+    cursor:pointer;
     `
+
 export const HomeHeroButtonRight = styled.button`
-    background-color: rgb(241, 87, 75);
+    background-color: #9aa37b;
     border-radius: 6.25rem;
     color: #ffffff;
     font-family: "Karla-Extra-Light";
     padding: 1.125rem 2.5rem;
-    border: 0.125rem solid rgb(241, 87, 75);
-    font-size:15px;
+    border: 0.125rem solid #9aa37b;
+    font-size:18px;
+    transition:color 0.4s ease 0s, background-color 0.4s ease 0s;
+    &:hover {color:black; background-color:white;
+    };
+    cursor:pointer;
     `
