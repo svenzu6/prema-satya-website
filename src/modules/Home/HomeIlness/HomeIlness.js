@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 import {
-    HomeIlnessIcons,
     HomeIlnessRoot,
     HomeIlnessText,
     HomeIlnessTitle,
@@ -78,44 +77,61 @@ export const HomeIlness = () => {
                 <HomeIlnessText>
                     Emocionalne i psihičke tegobe
                 </HomeIlnessText>
+
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+                <Image
+                    height={40}
+                    src="/icons/checkmark.svg"
+                    width={40}
+                />
+
             </HomeIlnessWrapper>
-            <HomeIlnessIcons>
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-            </HomeIlnessIcons>
+
         </HomeIlnessRoot>
     )
 }
+
+// Alergije
+// Tegobe kod djece
+
+// Nesanica
+
+// Povišena temperatura
+
+// Probavne tegobe
+
+// Srce i krvožilni sustav
+// Emocionalne tegobe
+
+// Infektivne bolesti
+
+// Kožne bolesti

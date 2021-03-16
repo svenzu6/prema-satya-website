@@ -2,7 +2,12 @@ import Head from 'next/head'
 
 import {
     ConsultationContainer,
+    ConsultationHeroRoot,
     ConsultationText,
+    ConsultationText2,
+    ConsultationTextContainer,
+    ConsultationTextDots,
+    ConsultationTitle,
 } from './Styles/consultation.styles'
 
 export default function Consultation() {
@@ -14,73 +19,112 @@ export default function Consultation() {
                 </title>
             </Head>
             <ConsultationContainer>
-                <ConsultationText>
-                    KAKO IZGLEDA UZIMANJE SLUČAJA
-                    (homeopatska konzultacija)
-                    U ugodnoj atmosferi homeopat uspostavlja odnos s klijentom
-                    koji mu omogućava da se osjeća udobno i sigurno
-                    kako bi mogao podijeliti svoja osjećanja i iskustva.
-                    Za homeopata je svaki klijent jedinstven i zahtijeva individualizirani pristup.
-                    U toku razgovora homeopat prikuplja informacije te dobiva „sliku“ pacijenta .
-                    Svrha homeopatskog razgovora je da se dođe do totaliteta simptoma na tjelesnoj,
-                    emocionalnoj i psihičkoj razini klijenta. Homeopat sluša i
-                    posmatra klijenta aktivno i empatično i ako klijent
-                    osjeti pažnju i razumijevanje, a ne osudu, pokazati će
-                    svoje unutrašnje stanje ili suštinu. Bit nije prikupljanje što više
-                    podataka, nego dobivanje žive slike suštine unutrašnje patologije klijenta.
-                    Najčešće intervju ili konzultacija započinje
-                    postavljanjem pitanja klijentu da opiše svoj problem.
-                    Klijenti većinom počinju opisivati uglavnom tjelesne probleme ,
-                    govore svoje liječničke dijagnoze, donose laboratorijske testove,
-                    nalaze i sl. Homeopat se u početku zadovoljava tim informacijama
-                    iako one nisu od presudne važnosti za propisivanje homeopatskog lijeka,
-                    ali su važne za ocjenu ozbiljnosti bolesti , a posebno za prognozu budućnosti
-                    zdravstvenog stanja.
-                    Važan je slijed tj. evolucija sadašnjeg patološkog stanja klijenta,
-                    točan redoslijed pojave simptoma.Kada se to dogodilo?
-                    Je li simptomima ili bolesti prethodio neki veći životni događaj?
-                    Što bi mogli biti uzroci za nastajanje simptoma?
-                    Uglavnom fokus je na nekolio glavnih utjecaja koji su
-                    mogli dovesti do sadašnjeg pataloškog stanja: – mentalni ili
-                    emocinalni šokovi.(npr. smrt bliske osobe , odvajanje od voljenih osoba,
-                    financijski gubitci, gubitak posla, kriza identiteta i drugi životni stresovi )
-                    – svaka ozbiljnija bolest koja je mogla utjecati na opće zdravlje klijenta
-                    Svi tretmani koje je klijent primio u toku cijelog
-                    života jer terapije često mogu biti supresivne (potiskujuće) .
-                    Važno je razmotriti primanje lijekova, operacije ,psihoterapije,
-                    tireoidni hormoni, kontracepcija, kortikosteroidi, antibiotici
-                    Vakcine koje je klijent primio i reakcije na njih
-                    Postoje još i standardna pitanja  kao što su:
+                <ConsultationHeroRoot>
+                    <ConsultationTitle>
+                        KAKO IZGLEDA UZIMANJE SLUČAJA?
+                    </ConsultationTitle>
+                    <ConsultationText>
+                        (homeopatska konzultacija)
+                    </ConsultationText>
+                </ConsultationHeroRoot>
+                <ConsultationTextContainer>
+                    <ConsultationText2>
+                        Homeopat započinje razgovor u ugodnoj atmosferi
+                        kako bi osoba mogla podijeliti svoje osjećaje i iskustva.
+                        Za homeopata je svaka osoba jedinstvena i zahtijeva individualizirani pristup.
+                        Tokom razgovora, homeopat prikuplja informacije te dobiva „sliku“ pacijenta.
+                        Svrha homeopatskog razgovora je doći do totaliteta simptoma na tjelesnoj,
+                        emocionalnoj i psihičkoj razini. Homeopat sluša i
+                        posmatra klijenta aktivno i empatično. Ako osoba
+                        osjeti pažnju i razumijevanje, a ne osudu, pokazati će
+                        svoje unutrašnje stanje ili suštinu. Bit nije prikupljanje što više
+                        podataka, već prikaz suštine unutrašnje patologije klijenta.
+                    </ConsultationText2>
+                    <ConsultationText2>
+                        Najčešće intervju ili konzultacija započinje
+                        opisivanjem problema ili tegoba.
+                        Klijenti većinom kreću opisivanjem tjelesnih problema,
+                        iznose svoje liječničke dijagnoze, donose laboratorijske testove,
+                        nalaze i sl. Homeopat se u početku zadovoljava tim informacijama
+                        iako one nisu od presudne važnosti za propisivanje homeopatskog lijeka,
+                        ali su važne za ocjenu ozbiljnosti bolesti, a posebno za prognozu budućnosti
+                        zdravstvenog stanja.
+                    </ConsultationText2>
+                    <ConsultationText2>
+                        Važan je slijed tj. evolucija sadašnjeg patološkog stanja klijenta,
+                        točan redoslijed pojave simptoma.Kada se to dogodilo?
+                        Je li simptomima ili bolesti prethodio neki veći životni događaj?
+                        Što bi mogli biti uzroci za nastajanje simptoma?
+                        Uglavnom fokus je na nekoliko glavnih utjecaja koji su
+                        mogli dovesti do sadašnjeg pataloškog stanja: – mentalni ili
+                        emocinalni šokovi(npr. smrt bliske osobe, odvajanje od voljenih osoba,
+                        financijski gubitci, gubitak posla, kriza identiteta i drugi životni stresovi)
+                        – svaka ozbiljnija bolest koja je mogla utjecati na opće zdravlje klijenta.
+                    </ConsultationText2>
 
-                    Okruženje – osjetljivost na promjene vremena, tolerancija prema temperaturi,
-                    vlažnosti zraka, suncu, vjetru, zatvorenom prostoru i sl.
-                    Vrijeme, sezone – dolazi li do nekih promjena u toku
-                    određenih sezona ili doba dana
-                    Spavanje i snovi- kvaliteta spavanja, položaji spavanja,
-                    vrijeme i razlozi buđenja, otkrivanje ili pokrivanje
-                    određenih dijelova tijela, obični snovi ili noćne more,
-                    somnabulizam, zvuci u toku spavanja, itd.
-                    Ishrana – apetit, žeđ, omiljena hrana, averzije prema
-                    određenoj hrani ili pogoršanja od određene hrane
-                    Seksualnost- seksualna želja smanjena ili povećana,
-                    posebne opsesije vezane za seks
-                    Tjelesni sistemi – funkcioniranje cirkulatornog,
-                    endokrinog, gastrointestinalnog, respiratnornog, kože,
-                    kod žena menstrualna funkcija i trudnoća.
-                    Životna energija – kvaliteta životne energije u
-                    svakodnevnom životu u različitim okolnostima
-                    Emocije- strahovi, fobije, depresija, iritabilnost,
-                    nedostatak samopouzdanja nakon trudnoće.
-                    Odnosi-  prema vojenim osobama, prijateljima,
-                    radnim kolegama
-                    Mentalna razina- pamćenje, koncentracija,
-                    postoje li halucinacije i deluzije
-                    Obiteljska povijest bolesti
-                    Nakon uzimanja cijelog slučaja homeopat  u
-                    završnoj analizi koja se zove diferencijacija
-                    proučava lijekove  i odabire onaj koji se najviše
-                    poklapa sa suštinom totaliteta simptoma klijenta.
-                </ConsultationText>
+                    <ConsultationTextDots>
+                        • Svi tretmani koje je osoba primila  tokom
+                        života jer terapije često mogu biti supresivne (potiskujuće).
+                        Važno je razmotriti primanje lijekova, operacije ,psihoterapije,
+                        tireoidni hormoni, kontracepcije, kortikosteroidi, antibiotici, cjepiva i reakcije
+                        na njih.
+                    </ConsultationTextDots>
+                    <ConsultationText2>
+                        Učestala pitanja:
+                    </ConsultationText2>
+                    <ConsultationTextDots>
+                        • Okruženje – osjetljivost na promjene vremena, tolerancija prema temperaturi,
+                        vlažnosti zraka, suncu, vjetru, zatvorenom prostoru i sl.
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Vrijeme, sezone – dolazi li do nekih promjena tokom
+                        određenih sezona ili doba dana
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Spavanje i snovi- kvaliteta spavanja, položaji spavanja,
+                        vrijeme i razlozi buđenja, otkrivanje ili pokrivanje
+                        određenih dijelova tijela, obični snovi ili noćne more,
+                        somnabulizam, zvukovi tijekom spavanja, itd.
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Ishrana – apetit, žeđ, omiljena hrana, averzije ili pogoršanja
+                        od određene hrane.
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Seksualnost- smanjena ili povećana seksualna želja,
+                        posebne opsesije vezane za seks
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Tjelesni sistemi – funkcioniranje cirkulatornog,
+                        endokrinog, gastrointestinalnog, respiratnornog, kože,
+                        menstrualna funkcija i trudnoća.
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Životna energija – kvaliteta životne energije u
+                        svakodnevnom životu i različitim okolnostima
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Emocije- strahovi, fobije, iritabilnost,
+                        nedostatak samopouzdanja nakon trudnoće.
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Odnosi-  prema voljenim osobama, prijateljima,
+                        radnim kolegama
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Mentalna razina- pamćenje, koncentracija,
+                        halucinacije, deluzije
+                    </ConsultationTextDots>
+                    <ConsultationTextDots>
+                        • Obiteljska povijest bolesti
+                    </ConsultationTextDots>
+                    <ConsultationText2>
+                        Nakon uzimanja cijelog slučaja, homeopat  u
+                        završnoj analizi (diferencijacija),
+                        proučava lijekove te odabire onaj koji se najviše
+                        poklapa sa suštinom totaliteta simptoma klijenta.
+                    </ConsultationText2>
+                </ConsultationTextContainer>
             </ConsultationContainer>
         </>
     )

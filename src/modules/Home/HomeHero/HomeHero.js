@@ -21,6 +21,14 @@ export const HomeHero = () => {
             </HomeHeroDescription>
             <HomeHeroButtonWrapper>
                 <Link
+                    href="/faq"
+                    passHref={true}
+                >
+                    <HomeHeroButtonRight>
+                        Saznajte vise
+                    </HomeHeroButtonRight>
+                </Link>
+                <Link
                     href="/contact"
                     passHref={true}
                 >
@@ -28,14 +36,6 @@ export const HomeHero = () => {
                         Kontakt
                     </HomeHeroButtonLeft>
 
-                </Link>
-                <Link
-                    href="/faq"
-                    passHref={true}
-                >
-                    <HomeHeroButtonRight>
-                        Saznajte vise
-                    </HomeHeroButtonRight>
                 </Link>
             </HomeHeroButtonWrapper>
         </HomeHeroRoot>

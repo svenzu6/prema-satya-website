@@ -3,16 +3,20 @@ import styled from 'styled-components'
 export const HomeIlnessRoot = styled.div`
     height: 600px;
     min-height: 600px;
+    padding:0px 40px;
     `
 export const HomeIlnessWrapper = styled.div`
     display: grid;
-    grid-template-columns: repeat(7, 3fr);
+    grid-template-columns: repeat(7, 4fr);
     grid-column-gap: 50px;
     justify-content:center;
     align-items:center;
     text-align:center; 
     margin-bottom:20px;
-    border:1px solid lightgray;
+    /* border:1px solid lightgray; */
+    padding-bottom:10px;
+    /* background-size: cover;   
+    background-image:linear-gradient(#00000085, #00000085),url("/images/water.jpg");  */
     `
 
 export const HomeIlnessText = styled.p`
@@ -20,6 +24,8 @@ export const HomeIlnessText = styled.p`
     padding: 10px 20px;
     font-size:19px;
     margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
     `
 
 export const HomeIlnessTitle = styled.h1`
@@ -28,11 +34,3 @@ export const HomeIlnessTitle = styled.h1`
     font-size:30px;     
     margin-bottom: 50px;   
 `
-export const HomeIlnessIcons = styled.div`
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-column-gap: 50px;
-    justify-content:center;
-    align-items:center;
-    background-color:white;
-    `
