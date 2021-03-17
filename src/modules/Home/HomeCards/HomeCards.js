@@ -1,7 +1,6 @@
 import { HomeCard } from '../HomeCard/HomeCard'
 
 import {
-    HomeCardButton,
     HomeCardsRoot,
     HomeCardsTitle,
     HomeCardsWrapper,
@@ -19,7 +18,6 @@ export const HomeCards = () => {
                             Rado cu vam pomoci u lijecenju
                             tijela, uma i emocija
                         "
-                    iconName="counselor"
                     imageName="blob"
                     linkDescription="saznaj vise"
                     linkPage="consultation"

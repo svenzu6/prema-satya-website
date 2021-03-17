@@ -8,8 +8,8 @@ export const HomeHeroRoot = styled.div`
     justify-content: center;
     align-items: center;
     background-size: cover;   
-    background-image:linear-gradient(#00000085, #00000085),url("/images/hero.jpg");  
-    `
+    background-image: linear-gradient(#00000085, #00000085),url("/images/hero.jpg");  
+`
 
 export const HomeHeroTitle = styled.h1`
     color: #ffffff;
@@ -29,7 +29,7 @@ export const HomeHeroButtonWrapper = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 60px;
     justify-content: space-around;
-    padding:60px;  
+    padding: 60px;  
 `
 
 export const HomeHeroButtonLeft = styled.button`
@@ -39,12 +39,13 @@ export const HomeHeroButtonLeft = styled.button`
     font-family: "Karla-Extra-Light";  
     padding: 1.125rem 2.5rem;
     border: 0.125rem solid #9aa37b;
-    font-size:18px;
-    transition:color 0.4s ease 0s, background-color 0.4s ease 0s;
-    &:hover {color:black; background-color:white;
-    };
+    font-size: 18px;
+    transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+    &:hover {
+        color:black; background-color: white;
+        };
     cursor:pointer;
-    `
+`
 
 export const HomeHeroButtonRight = styled.button`
     background-color: #9aa37b;
@@ -55,7 +56,8 @@ export const HomeHeroButtonRight = styled.button`
     border: 0.125rem solid #9aa37b;
     font-size:18px;
     transition:color 0.4s ease 0s, background-color 0.4s ease 0s;
-    &:hover {color:black; background-color:white;
-    };
-    cursor:pointer;
-    `
+    &:hover {
+        color:black; background-color: white;
+        };
+    cursor: pointer;
+`

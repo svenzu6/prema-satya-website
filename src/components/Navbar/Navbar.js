@@ -6,7 +6,7 @@ import {
     NavbarRightSide,
     NavRoot,
     NavTitle,
-} from './NavbarStyle'
+} from './Navbar.styles.js'
 
 const Navbar = () => {
     return (
@@ -25,7 +25,6 @@ const Navbar = () => {
                 <Link
                     href="/"
                     passHref={true}
-                    s={true}
                 >
                     <a>
                         Home
@@ -51,4 +50,5 @@ const Navbar = () => {
         </NavRoot>
     )
 }
+
 export default Navbar

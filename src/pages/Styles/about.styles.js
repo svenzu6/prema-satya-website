@@ -5,6 +5,7 @@ export const AboutContainer = styled.div`
     height: 100%;
     width: 100%;
 `
+
 export const AboutText = styled.p`
-    color:#000000;
+    color: #000000;
 `

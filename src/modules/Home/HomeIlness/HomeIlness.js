@@ -113,9 +113,7 @@ export const HomeIlness = () => {
                     src="/icons/checkmark.svg"
                     width={40}
                 />
-
             </HomeIlnessWrapper>
-
         </HomeIlnessRoot>
     )
 }

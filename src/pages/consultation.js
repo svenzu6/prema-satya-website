@@ -4,10 +4,10 @@ import {
     ConsultationContainer,
     ConsultationHeroRoot,
     ConsultationText,
-    ConsultationText2,
     ConsultationTextContainer,
     ConsultationTextDots,
     ConsultationTitle,
+    ConsultationTitleSub,
 } from './Styles/consultation.styles'
 
 export default function Consultation() {
@@ -23,12 +23,12 @@ export default function Consultation() {
                     <ConsultationTitle>
                         KAKO IZGLEDA UZIMANJE SLUČAJA?
                     </ConsultationTitle>
-                    <ConsultationText>
+                    <ConsultationTitleSub>
                         (homeopatska konzultacija)
-                    </ConsultationText>
+                    </ConsultationTitleSub>
                 </ConsultationHeroRoot>
                 <ConsultationTextContainer>
-                    <ConsultationText2>
+                    <ConsultationText>
                         Homeopat započinje razgovor u ugodnoj atmosferi
                         kako bi osoba mogla podijeliti svoje osjećaje i iskustva.
                         Za homeopata je svaka osoba jedinstvena i zahtijeva individualizirani pristup.
@@ -39,8 +39,8 @@ export default function Consultation() {
                         osjeti pažnju i razumijevanje, a ne osudu, pokazati će
                         svoje unutrašnje stanje ili suštinu. Bit nije prikupljanje što više
                         podataka, već prikaz suštine unutrašnje patologije klijenta.
-                    </ConsultationText2>
-                    <ConsultationText2>
+                    </ConsultationText>
+                    <ConsultationText>
                         Najčešće intervju ili konzultacija započinje
                         opisivanjem problema ili tegoba.
                         Klijenti većinom kreću opisivanjem tjelesnih problema,
@@ -49,8 +49,8 @@ export default function Consultation() {
                         iako one nisu od presudne važnosti za propisivanje homeopatskog lijeka,
                         ali su važne za ocjenu ozbiljnosti bolesti, a posebno za prognozu budućnosti
                         zdravstvenog stanja.
-                    </ConsultationText2>
-                    <ConsultationText2>
+                    </ConsultationText>
+                    <ConsultationText>
                         Važan je slijed tj. evolucija sadašnjeg patološkog stanja klijenta,
                         točan redoslijed pojave simptoma.Kada se to dogodilo?
                         Je li simptomima ili bolesti prethodio neki veći životni događaj?
@@ -60,8 +60,7 @@ export default function Consultation() {
                         emocinalni šokovi(npr. smrt bliske osobe, odvajanje od voljenih osoba,
                         financijski gubitci, gubitak posla, kriza identiteta i drugi životni stresovi)
                         – svaka ozbiljnija bolest koja je mogla utjecati na opće zdravlje klijenta.
-                    </ConsultationText2>
-
+                    </ConsultationText>
                     <ConsultationTextDots>
                         • Svi tretmani koje je osoba primila  tokom
                         života jer terapije često mogu biti supresivne (potiskujuće).
@@ -69,9 +68,9 @@ export default function Consultation() {
                         tireoidni hormoni, kontracepcije, kortikosteroidi, antibiotici, cjepiva i reakcije
                         na njih.
                     </ConsultationTextDots>
-                    <ConsultationText2>
+                    <ConsultationText>
                         Učestala pitanja:
-                    </ConsultationText2>
+                    </ConsultationText>
                     <ConsultationTextDots>
                         • Okruženje – osjetljivost na promjene vremena, tolerancija prema temperaturi,
                         vlažnosti zraka, suncu, vjetru, zatvorenom prostoru i sl.
@@ -118,12 +117,12 @@ export default function Consultation() {
                     <ConsultationTextDots>
                         • Obiteljska povijest bolesti
                     </ConsultationTextDots>
-                    <ConsultationText2>
+                    <ConsultationText>
                         Nakon uzimanja cijelog slučaja, homeopat  u
                         završnoj analizi (diferencijacija),
                         proučava lijekove te odabire onaj koji se najviše
                         poklapa sa suštinom totaliteta simptoma klijenta.
-                    </ConsultationText2>
+                    </ConsultationText>
                 </ConsultationTextContainer>
             </ConsultationContainer>
         </>

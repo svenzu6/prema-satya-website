@@ -3,15 +3,16 @@ import styled from 'styled-components'
 
 export const HomeCardsRoot = styled.div`
     background: #ffffff;
-    display: flex, column;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 50px 60px;
 `
 
 export const HomeCardsTitle = styled.h1`
-    color:#000000;
-    font-family:"Karla";
-    font-size:xx-large;     
+    color: #000000;
+    font-family: "Karla";
+    font-size: xx-large;     
     margin-bottom: 100px;   
 `
 

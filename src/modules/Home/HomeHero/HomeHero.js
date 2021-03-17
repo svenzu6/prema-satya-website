@@ -35,7 +35,6 @@ export const HomeHero = () => {
                     <HomeHeroButtonLeft>
                         Kontakt
                     </HomeHeroButtonLeft>
-
                 </Link>
             </HomeHeroButtonWrapper>
         </HomeHeroRoot>
