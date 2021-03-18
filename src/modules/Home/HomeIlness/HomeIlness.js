@@ -1,135 +1,114 @@
 import Image from 'next/image'
 
 import {
+    HomeIlnessDescription,
     HomeIlnessRoot,
     HomeIlnessText,
     HomeIlnessTitle,
+    HomeIlnessTitleFill,
     HomeIlnessWrapper,
+    HomeIlnesTitleWrapper,
 } from './HomeIlnessStyle'
 
 export const HomeIlness = () => {
     return (
         <HomeIlnessRoot>
-            <HomeIlnessTitle>
-                Gdje primjenjujemo homeopatiju?
-            </HomeIlnessTitle>
+            <HomeIlnesTitleWrapper>
+                <HomeIlnessTitle>
+                    Pomaže kod svih
+                </HomeIlnessTitle>
+                <HomeIlnessTitleFill>
+                    'modernih' problema
+                </HomeIlnessTitleFill>
+                <HomeIlnessDescription>
+                    Homeopatija je “cjelovita”, što znači da liječi
+                    {' '}
+                    <br />
+                    cijelu osobu na svim razinama
+                    istovremeno –
+                    {' '}
+                    <br />
+                    tjelesnim, emocionalnim i psihičkim.
+                    <br />
+                    <br />
+                    Ne liječi samo simptome bolesti, već potiče organizam
+                    na SAMOISCJELJENJE.
+                </HomeIlnessDescription>
+            </HomeIlnesTitleWrapper>
             <HomeIlnessWrapper>
                 <HomeIlnessText>
-                    Tegobe kod djece
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Kožne bolesti
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Nesanica
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Trema
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Tegobe na putovanju
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Probavne tegobe
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Koštano – mišićni sustav
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Povišena temperatura
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Tegobe kod životinja
-                </HomeIlnessText>
-                <HomeIlnessText>
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
                     Alergije
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Dječje zarazne bolesti
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Nesanica
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Trudnoća I porod
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Tegobe kod djece
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Tegobe kod mokrenja
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Povisena temperatura
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Srce i krvožilni sustav
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Emocionalne tegobe
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Ozljede i nezgode
-                </HomeIlnessText>
-                <HomeIlnessText>
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
                     Infektivne bolesti
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Autoimune bolesti
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Kozne bolesti
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Tegobe kod dojenčadi
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Srcane bolesti
                 </HomeIlnessText>
                 <HomeIlnessText>
-                    Operacije
+                    <Image
+                        height={30}
+                        src="/icons/checkmark.svg"
+                        width={30}
+                    />
+                    Probavne tegobe
                 </HomeIlnessText>
-                <HomeIlnessText>
-                    Reproduktivni sustav
-                </HomeIlnessText>
-                <HomeIlnessText>
-                    Emocionalne i psihičke tegobe
-                </HomeIlnessText>
-
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
-                <Image
-                    height={40}
-                    src="/icons/checkmark.svg"
-                    width={40}
-                />
             </HomeIlnessWrapper>
         </HomeIlnessRoot>
     )
 }
-
-// Alergije
-// Tegobe kod djece
-
-// Nesanica
-
-// Povišena temperatura
-
-// Probavne tegobe
-
-// Srce i krvožilni sustav
-// Emocionalne tegobe
-
-// Infektivne bolesti
-
-// Kožne bolesti

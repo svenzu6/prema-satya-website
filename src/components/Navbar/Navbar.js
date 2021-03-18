@@ -31,7 +31,7 @@ const Navbar = () => {
                     </a>
                 </Link>
                 <Link
-                    href="/about"
+                    href="/o-meni"
                     passHref={true}
                 >
                     <a>
@@ -39,7 +39,7 @@ const Navbar = () => {
                     </a>
                 </Link>
                 <Link
-                    href="/contact"
+                    href="/kontakt"
                     passHref={true}
                 >
                     <a>

@@ -17,7 +17,7 @@ export const HomeHero = () => {
                 Prema-Satya
             </HomeHeroTitle>
             <HomeHeroDescription>
-                Lijecenje homeopatijom i promicanje svjesnog zivljenja
+                Liječenje homeopatijom i promicanje svjesnog življenja
             </HomeHeroDescription>
             <HomeHeroButtonWrapper>
                 <Link
@@ -25,11 +25,11 @@ export const HomeHero = () => {
                     passHref={true}
                 >
                     <HomeHeroButtonRight>
-                        Saznajte vise
+                        Saznajte više
                     </HomeHeroButtonRight>
                 </Link>
                 <Link
-                    href="/contact"
+                    href="/kontakt"
                     passHref={true}
                 >
                     <HomeHeroButtonLeft>

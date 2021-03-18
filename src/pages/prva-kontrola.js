@@ -3,7 +3,7 @@ import Head from 'next/head'
 import {
     ImportanceContainer,
     ImportanceText,
-} from './Styles/importance.styles'
+} from './Styles/prva-kontrola.styles'
 
 export default function Importance() {
     return (

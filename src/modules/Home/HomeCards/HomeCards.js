@@ -10,7 +10,10 @@ export const HomeCards = () => {
     return (
         <HomeCardsRoot>
             <HomeCardsTitle>
-                Postupak homeopatskog lijecenja
+                Postupak Homeopatskog
+                <br />
+                {' '}
+                Liječenja
             </HomeCardsTitle>
             <HomeCardsWrapper>
                 <HomeCard
@@ -19,8 +22,8 @@ export const HomeCards = () => {
                             tijela, uma i emocija
                         "
                     imageName="blob"
-                    linkDescription="saznaj vise"
-                    linkPage="consultation"
+                    linkDescription="saznaj više"
+                    linkPage="prva-konzultacija"
                     title="Uzimanje slucaja"
                 />
                 <HomeCard
@@ -29,7 +32,7 @@ export const HomeCards = () => {
                             prirodini i koriste se u lijecenju
                             akutnih i kronicnih tegoba
                         "
-                    linkDescription="saznaj vise"
+                    linkDescription="saznaj više"
                     linkPage="medicine"
                     title="Odabir lijeka"
                 />
@@ -38,7 +41,7 @@ export const HomeCards = () => {
                             Homeopatija nudi njezan i efikasan
                             pristup lijecenju
                         "
-                    linkDescription="saznaj vise"
+                    linkDescription="saznaj više"
                     linkPage="importance"
                     title="Lijecenje"
                 />

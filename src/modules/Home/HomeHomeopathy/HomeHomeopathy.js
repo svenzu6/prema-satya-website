@@ -1,0 +1,35 @@
+import {
+    HomeHomeopathyButton,
+    HomeHomeopathyDescription,
+    HomeHomeopathyRoot,
+    HomeHomeopathySubTitle,
+    HomeHomeopathyTitle,
+    HomeHomeopathyTitleWrapper,
+} from './HomeHomeopathy.styles'
+
+export const HomeHomeopathy = () => {
+    return (
+        <HomeHomeopathyRoot>
+            <HomeHomeopathyTitleWrapper>
+                <HomeHomeopathySubTitle>
+                    Homeopatija
+                </HomeHomeopathySubTitle>
+                <HomeHomeopathyTitle>
+                    Prirodan Način Liječenja
+                </HomeHomeopathyTitle>
+                <HomeHomeopathyDescription>
+                    Homeopatija (zasnovana po načelima dr. Hahnemanna) je jedna od najstarijih
+                    i najšire prihvaćenih metoda prirodne medicine koja putem individualnog
+                    pristupa osobi
+                    {' '}
+                    <br />
+                    {' '}
+                    propisuje homeopatske lijekove.
+                </HomeHomeopathyDescription>
+                <HomeHomeopathyButton>
+                    Saznajte više
+                </HomeHomeopathyButton>
+            </HomeHomeopathyTitleWrapper>
+        </HomeHomeopathyRoot>
+    )
+}

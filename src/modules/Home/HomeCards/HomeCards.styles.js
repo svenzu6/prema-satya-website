@@ -12,8 +12,8 @@ export const HomeCardsRoot = styled.div`
 export const HomeCardsTitle = styled.h1`
     color: #000000;
     font-family: "Karla";
-    font-size: xx-large;     
-    margin-bottom: 100px;   
+    font-size: 40px;     
+    padding-bottom: 130px;   
 `
 
 export const HomeCardsWrapper = styled(motion.div)`

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import {
     MedicineContainer,
     MedicineText,
-} from './Styles/medicine.styles'
+} from './Styles/lijekovi.styles'
 
 export default function Medicine() {
     return (

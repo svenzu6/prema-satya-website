@@ -42,9 +42,9 @@ export const HomeHeroButtonLeft = styled.button`
     font-size: 18px;
     transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
     &:hover {
-        color:black; background-color: white;
+        color: black; background-color: white;
         };
-    cursor:pointer;
+    cursor: pointer;
 `
 
 export const HomeHeroButtonRight = styled.button`
@@ -55,9 +55,9 @@ export const HomeHeroButtonRight = styled.button`
     padding: 1.125rem 2.5rem;
     border: 0.125rem solid #9aa37b;
     font-size:18px;
-    transition:color 0.4s ease 0s, background-color 0.4s ease 0s;
+    transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
     &:hover {
-        color:black; background-color: white;
+        color: black; background-color: white;
         };
     cursor: pointer;
 `

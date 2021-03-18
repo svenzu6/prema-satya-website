@@ -11,7 +11,6 @@ export const HomeCardRoot = styled(motion.div)`
     height: 350px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     font-family: "Karla-Extra-Light";
-    position: relative;
     background-color: #9aa37b;
 `
 
@@ -23,5 +22,5 @@ export const HomeCardTitle = styled.h2`
 export const HomeCardDescription = styled.p`
     color: #ffffff;
     text-align: center;
-    font-family: 'Karla-Light-Extreme';  
+    font-family: 'Karla-Extra-Light';  
 `

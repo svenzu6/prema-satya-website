@@ -8,7 +8,7 @@ import {
     ConsultationTextDots,
     ConsultationTitle,
     ConsultationTitleSub,
-} from './Styles/consultation.styles'
+} from './Styles/prva-konzultacija.styles'
 
 export default function Consultation() {
     return (
