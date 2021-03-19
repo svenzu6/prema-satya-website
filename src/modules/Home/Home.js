@@ -4,14 +4,14 @@ import { CallToAction } from './CallToAction/CallToAction'
 import { HomeCards } from './HomeCards/HomeCards'
 import { HomeHero } from './HomeHero/HomeHero'
 import { HomeHomeopathy } from './HomeHomeopathy/HomeHomeopathy'
-import { HomeIlness } from './HomeIlness/HomeIlness'
+import { HomeProblems } from './HomeProblems/HomeProblems'
 
 const Home = () => {
     return (
         <>
             <HomeHero />
             <HomeHomeopathy />
-            <HomeIlness />
+            <HomeProblems />
             <CallToAction />
             <HomeCards />
         </>

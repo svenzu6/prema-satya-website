@@ -21,7 +21,7 @@ export const HomeHero = () => {
             </HomeHeroDescription>
             <HomeHeroButtonWrapper>
                 <Link
-                    href="/faq"
+                    href="/cesto-postavljana-pitanja"
                     passHref={true}
                 >
                     <HomeHeroButtonRight>

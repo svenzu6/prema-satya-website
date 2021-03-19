@@ -33,7 +33,7 @@ export const HomeCards = () => {
                             akutnih i kronicnih tegoba
                         "
                     linkDescription="saznaj više"
-                    linkPage="medicine"
+                    linkPage="lijekovi"
                     title="Odabir lijeka"
                 />
                 <HomeCard
@@ -42,7 +42,7 @@ export const HomeCards = () => {
                             pristup lijecenju
                         "
                     linkDescription="saznaj više"
-                    linkPage="importance"
+                    linkPage="prva-kontrola"
                     title="Lijecenje"
                 />
             </HomeCardsWrapper>

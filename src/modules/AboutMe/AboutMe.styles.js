@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-export const AboutContainer = styled.div`
+export const AboutMeContainer = styled.div`
     background: #Ffffff;
     height: 100%;
     width: 100%;
 `
 
-export const AboutText = styled.p`
+export const AboutMeText = styled.p`
     color: #000000;
 `

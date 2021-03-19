@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-export const ConsultationContainer = styled.div`
+export const FirstConsultationContainer = styled.div`
     background: #ffffff;
 `
 
-export const ConsultationHeroRoot = styled.div`
+export const FirstConsultationHeroRoot = styled.div`
     height: 150px;
     min-height: 150px;
     display: flex;
@@ -17,18 +17,18 @@ export const ConsultationHeroRoot = styled.div`
     margin-bottom: 10px;
 `
 
-export const ConsultationTitle = styled.h2`
+export const FirstConsultationTitle = styled.h2`
     color: #ffffff;
     font-family: "Rubik";
 `
-export const ConsultationTitleSub = styled.p`
+export const FirstConsultationTitleSub = styled.p`
     font-size: 22px;
     color: #ffffff;
     font-family: "Karla-Extra-Light";
     font-weight: 200;
 `
 
-export const ConsultationText = styled.p`
+export const FirstConsultationText = styled.p`
     font-size: 20px;
     color: #000000;
     font-family: "Karla-Extra-Light";
@@ -36,7 +36,7 @@ export const ConsultationText = styled.p`
     margin-bottom: 15px;
 `
 
-export const ConsultationTextDots = styled.p`
+export const FirstConsultationTextDots = styled.p`
     font-size: 19px;
     color: #000000;
     font-family: "Karla-Extra-Light";
@@ -45,7 +45,7 @@ export const ConsultationTextDots = styled.p`
     padding-left: 30px;
 `
 
-export const ConsultationTextContainer = styled.div`
+export const FirstConsultationTextContainer = styled.div`
     background: #ffffff;
     display: flex;
     flex-direction: column;

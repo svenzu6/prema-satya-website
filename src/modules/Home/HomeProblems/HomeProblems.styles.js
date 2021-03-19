@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-export const HomeIlnessRoot = styled.div`
+export const HomeProblemsRoot = styled.div`
     padding: 0px 40px;
 `
 
-export const HomeIlnesTitleWrapper = styled.h1`
+export const HomeProblemsTitleWrapper = styled.h1`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -15,28 +15,28 @@ export const HomeIlnesTitleWrapper = styled.h1`
     background-image: url("/icons/blob.svg"); 
 `
 
-export const HomeIlnessTitle = styled.h1`
+export const HomeProblemsTitle = styled.h1`
     color: #000000;
     font-family: "Karla";
     font-size: 40px;    
     text-decoration: overline;
 `
 
-export const HomeIlnessTitleFill = styled.h1`
+export const HomeProblemsTitleFill = styled.h1`
     color: #000000;
     font-family: "Karla";
     font-size: 40px;   
     margin-bottom: 20px;    
 `
 
-export const HomeIlnessDescription = styled.h1`
+export const HomeProblemsDescription = styled.h1`
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-size: 18px;       
     margin-bottom: 30px;
 `
 
-export const HomeIlnessWrapper = styled.div`
+export const HomeProblemsWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-column-gap: 50px;
@@ -48,7 +48,7 @@ export const HomeIlnessWrapper = styled.div`
     margin-bottom: 100px;
 `
 
-export const HomeIlnessText = styled.p`
+export const HomeProblemsText = styled.p`
     font-family: "Karla-Extra-Light";  
     font-size: 19px;
     display: grid;

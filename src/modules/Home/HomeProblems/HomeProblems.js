@@ -1,26 +1,26 @@
 import Image from 'next/image'
 
 import {
-    HomeIlnessDescription,
-    HomeIlnessRoot,
-    HomeIlnessText,
-    HomeIlnessTitle,
-    HomeIlnessTitleFill,
-    HomeIlnessWrapper,
-    HomeIlnesTitleWrapper,
-} from './HomeIlnessStyle'
+    HomeProblemsDescription,
+    HomeProblemsRoot,
+    HomeProblemsText,
+    HomeProblemsTitle,
+    HomeProblemsTitleFill,
+    HomeProblemsTitleWrapper,
+    HomeProblemsWrapper,
+} from './HomeProblems.styles'
 
-export const HomeIlness = () => {
+export const HomeProblems = () => {
     return (
-        <HomeIlnessRoot>
-            <HomeIlnesTitleWrapper>
-                <HomeIlnessTitle>
+        <HomeProblemsRoot>
+            <HomeProblemsTitleWrapper>
+                <HomeProblemsTitle>
                     Pomaže kod svih
-                </HomeIlnessTitle>
-                <HomeIlnessTitleFill>
+                </HomeProblemsTitle>
+                <HomeProblemsTitleFill>
                     'modernih' problema
-                </HomeIlnessTitleFill>
-                <HomeIlnessDescription>
+                </HomeProblemsTitleFill>
+                <HomeProblemsDescription>
                     Homeopatija je “cjelovita”, što znači da liječi
                     {' '}
                     <br />
@@ -33,82 +33,82 @@ export const HomeIlness = () => {
                     <br />
                     Ne liječi samo simptome bolesti, već potiče organizam
                     na SAMOISCJELJENJE.
-                </HomeIlnessDescription>
-            </HomeIlnesTitleWrapper>
-            <HomeIlnessWrapper>
-                <HomeIlnessText>
+                </HomeProblemsDescription>
+            </HomeProblemsTitleWrapper>
+            <HomeProblemsWrapper>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Alergije
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Nesanica
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Tegobe kod djece
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Povisena temperatura
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Emocionalne tegobe
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Infektivne bolesti
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Kozne bolesti
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Srcane bolesti
-                </HomeIlnessText>
-                <HomeIlnessText>
+                </HomeProblemsText>
+                <HomeProblemsText>
                     <Image
                         height={30}
                         src="/icons/checkmark.svg"
                         width={30}
                     />
                     Probavne tegobe
-                </HomeIlnessText>
-            </HomeIlnessWrapper>
-        </HomeIlnessRoot>
+                </HomeProblemsText>
+            </HomeProblemsWrapper>
+        </HomeProblemsRoot>
     )
 }
