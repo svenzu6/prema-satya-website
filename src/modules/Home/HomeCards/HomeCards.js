@@ -18,19 +18,19 @@ export const HomeCards = () => {
             <HomeCardsWrapper>
                 <HomeCard
                     description="
-                            Rado cu vam pomoci u lijecenju
+                            Pomoći ću vam u liječenju
                             tijela, uma i emocija
                         "
                     imageName="blob"
                     linkDescription="saznaj više"
                     linkPage="prva-konzultacija"
-                    title="Uzimanje slucaja"
+                    title="Uzimanje slučaja"
                 />
                 <HomeCard
                     description="
                             Homeopatski pripravci su
-                            prirodini i koriste se u lijecenju
-                            akutnih i kronicnih tegoba
+                            prirodni i koriste se u liječenju
+                            akutnih i kroničnih tegoba
                         "
                     linkDescription="saznaj više"
                     linkPage="lijekovi"
@@ -38,12 +38,12 @@ export const HomeCards = () => {
                 />
                 <HomeCard
                     description="
-                            Homeopatija nudi njezan i efikasan
-                            pristup lijecenju
+                            Homeopatija nudi nježan i efikasan
+                            pristup liječenju
                         "
                     linkDescription="saznaj više"
                     linkPage="prva-kontrola"
-                    title="Lijecenje"
+                    title="Liječenje"
                 />
             </HomeCardsWrapper>
         </HomeCardsRoot>

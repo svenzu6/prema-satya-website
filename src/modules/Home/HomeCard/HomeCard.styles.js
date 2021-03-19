@@ -9,7 +9,7 @@ export const HomeCardRoot = styled(motion.div)`
     align-items: center;
     justify-content: center;
     height: 350px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     font-family: "Karla-Extra-Light";
     background-color: #9aa37b;
 `

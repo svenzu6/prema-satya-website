@@ -10,7 +10,6 @@ export const HomeProblemsTitleWrapper = styled.h1`
     justify-content: flex-start;
     padding-left: 200px;
     width: 400px;
-    margin-bottom: 40px; 
     background-size: cover;   
     background-image: url("/icons/blob.svg"); 
 `
@@ -26,14 +25,13 @@ export const HomeProblemsTitleFill = styled.h1`
     color: #000000;
     font-family: "Karla";
     font-size: 40px;   
-    margin-bottom: 20px;    
 `
 
 export const HomeProblemsDescription = styled.h1`
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-size: 18px;       
-    margin-bottom: 30px;
+  
 `
 
 export const HomeProblemsWrapper = styled.div`
@@ -43,9 +41,7 @@ export const HomeProblemsWrapper = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center; 
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-bottom: 100px;
+    padding: 70px 250px 100px 250px;
 `
 
 export const HomeProblemsText = styled.p`

@@ -16,7 +16,7 @@ export const HomeHomeopathyTitleWrapper = styled.h1`
 export const HomeHomeopathyTitle = styled.h1`
     color: #000000;
     font-family: "Karla";
-    font-size: 40px;     
+    font-size: 46px;     
     margin-bottom: 20px;  
     font-weight: 100; 
 `
