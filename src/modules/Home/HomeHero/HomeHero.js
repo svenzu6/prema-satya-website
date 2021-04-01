@@ -21,7 +21,7 @@ export const HomeHero = () => {
             </HomeHeroDescription>
             <HomeHeroButtonWrapper>
                 <Link
-                    href="/cesto-postavljana-pitanja"
+                    href="/o-homeopatiji"
                     passHref={true}
                 >
                     <HomeHeroButtonRight>

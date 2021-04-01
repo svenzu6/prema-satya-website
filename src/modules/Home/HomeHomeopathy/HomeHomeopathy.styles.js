@@ -5,7 +5,7 @@ export const HomeHomeopathyRoot = styled.div`
     min-height: 400px;
     padding: 50px 40px;
 `
-export const HomeHomeopathyTitleWrapper = styled.h1`
+export const HomeHomeopathyTitleWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;

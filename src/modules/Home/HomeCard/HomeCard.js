@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import {
+    CardButton,
     HomeCardDescription,
     HomeCardRoot,
     HomeCardTitle,
@@ -16,9 +17,9 @@ export const HomeCard = (props) => {
             whileHover={{ scale: 1.1 }}
         >
             <Image
-                height={100}
+                height={300}
                 src={`/icons/${imageName}.svg`}
-                width={100}
+                width={300}
             />
             <HomeCardTitle>
                 {title}
@@ -30,9 +31,9 @@ export const HomeCard = (props) => {
                 href={`/${linkPage}`}
                 passHref={true}
             >
-                <a>
+                <CardButton>
                     {linkDescription}
-                </a>
+                </CardButton>
             </Link>
         </HomeCardRoot>
     )

@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
-import Meds from '../modules/Meds/Meds'
+import HomeopathyHistory from '../modules/Home/HomeopathyHistory/HomeopathyHistory.js'
 
 export default function Medicine() {
     return (
         <>
             <Head>
                 <title>
-                    Homeopatski Lijekovi
+                    Povijest Homeopatije
                 </title>
             </Head>
-            <Meds />
+            <HomeopathyHistory />
         </>
     )
 }

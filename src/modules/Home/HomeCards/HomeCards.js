@@ -2,27 +2,20 @@ import { HomeCard } from '../HomeCard/HomeCard'
 
 import {
     HomeCardsRoot,
-    HomeCardsTitle,
     HomeCardsWrapper,
 } from './HomeCards.styles'
 
 export const HomeCards = () => {
     return (
         <HomeCardsRoot>
-            <HomeCardsTitle>
-                Postupak Homeopatskog
-                <br />
-                {' '}
-                Liječenja
-            </HomeCardsTitle>
             <HomeCardsWrapper>
                 <HomeCard
                     description="
                             Pomoći ću vam u liječenju
                             tijela, uma i emocija
                         "
-                    imageName="blob"
-                    linkDescription="saznaj više"
+                    imageName="homeopatska-konzultacija"
+                    linkDescription="saznajte više"
                     linkPage="prva-konzultacija"
                     title="Uzimanje slučaja"
                 />
@@ -32,7 +25,8 @@ export const HomeCards = () => {
                             prirodni i koriste se u liječenju
                             akutnih i kroničnih tegoba
                         "
-                    linkDescription="saznaj više"
+                    imageName="homeopatski-lijekovi"
+                    linkDescription="saznajte više"
                     linkPage="lijekovi"
                     title="Odabir lijeka"
                 />
@@ -41,7 +35,8 @@ export const HomeCards = () => {
                             Homeopatija nudi nježan i efikasan
                             pristup liječenju
                         "
-                    linkDescription="saznaj više"
+                    imageName="homeopatsko-lijecenje"
+                    linkDescription="saznajte više"
                     linkPage="prva-kontrola"
                     title="Liječenje"
                 />

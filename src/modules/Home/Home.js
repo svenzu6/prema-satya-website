@@ -12,8 +12,8 @@ const Home = () => {
             <HomeHero />
             <HomeHomeopathy />
             <HomeProblems />
-            <HomeCards />
             <CallToAction />
+            <HomeCards />
         </>
     )
 }

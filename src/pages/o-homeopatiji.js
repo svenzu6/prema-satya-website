@@ -7,7 +7,7 @@ export default function Cpp() {
         <>
             <Head>
                 <title>
-                    FAQ
+                    O homeopatiji
                 </title>
             </Head>
             <Faq />

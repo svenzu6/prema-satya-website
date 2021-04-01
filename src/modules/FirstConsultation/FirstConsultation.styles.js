@@ -21,6 +21,7 @@ export const FirstConsultationTitle = styled.h2`
     color: #ffffff;
     font-family: "Rubik";
 `
+
 export const FirstConsultationTitleSub = styled.p`
     font-size: 22px;
     color: #ffffff;

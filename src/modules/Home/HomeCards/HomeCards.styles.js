@@ -9,13 +9,6 @@ export const HomeCardsRoot = styled.div`
     padding: 50px 60px;
 `
 
-export const HomeCardsTitle = styled.h1`
-    color: #000000;
-    font-family: "Karla";
-    font-size: 40px;     
-    padding-bottom: 130px;   
-`
-
 export const HomeCardsWrapper = styled(motion.div)`
     display: grid;
     grid-template-columns: repeat(3, 1fr);

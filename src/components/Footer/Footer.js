@@ -8,7 +8,6 @@ const Footer = () => {
             <p>
                 Copyright (&copy;)
                 {new Date().getFullYear()}
-                , svenzu
             </p>
         </FooterSection>
     )

@@ -4,7 +4,7 @@ export const HomeProblemsRoot = styled.div`
     padding: 0px 40px;
 `
 
-export const HomeProblemsTitleWrapper = styled.h1`
+export const HomeProblemsTitleWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -18,20 +18,14 @@ export const HomeProblemsTitle = styled.h1`
     color: #000000;
     font-family: "Karla";
     font-size: 40px;    
-    text-decoration: overline;
-`
-
-export const HomeProblemsTitleFill = styled.h1`
-    color: #000000;
-    font-family: "Karla";
-    font-size: 40px;   
+    padding: 15px 0;
+    border-top: 5px solid black;
 `
 
 export const HomeProblemsDescription = styled.h1`
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-size: 18px;       
-  
 `
 
 export const HomeProblemsWrapper = styled.div`
@@ -44,7 +38,7 @@ export const HomeProblemsWrapper = styled.div`
     padding: 70px 250px 100px 250px;
 `
 
-export const HomeProblemsText = styled.p`
+export const HomeProblemsText = styled.div`
     font-family: "Karla-Extra-Light";  
     font-size: 19px;
     display: grid;

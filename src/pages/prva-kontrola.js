@@ -7,7 +7,7 @@ export default function FirstCheckUp() {
         <>
             <Head>
                 <title>
-                    Importance
+                    Prva Kontrola
                 </title>
             </Head>
             <CheckUp />

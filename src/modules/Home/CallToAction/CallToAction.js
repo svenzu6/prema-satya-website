@@ -1,7 +1,4 @@
-import Link from 'next/link'
-
 import {
-    CallToActionButton,
     CallToActionContainer,
     CallToActionRoot,
     CallToActionTitle,
@@ -14,16 +11,8 @@ export const CallToAction = () => {
             <CallToActionRoot>
                 <CallToActionWrapper>
                     <CallToActionTitle>
-                        Mogu pomoći i vama
+                        Postupak Homeopatskog Liječenja
                     </CallToActionTitle>
-                    <Link
-                        href="/kontakt"
-                        passHref={true}
-                    >
-                        <CallToActionButton>
-                            Kontakt
-                        </CallToActionButton>
-                    </Link>
                 </CallToActionWrapper>
             </CallToActionRoot>
         </CallToActionContainer>

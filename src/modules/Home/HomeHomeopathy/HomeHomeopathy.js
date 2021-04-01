@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import {
     HomeHomeopathyButton,
     HomeHomeopathyDescription,
@@ -26,9 +28,14 @@ export const HomeHomeopathy = () => {
                     {' '}
                     propisuje homeopatske lijekove.
                 </HomeHomeopathyDescription>
-                <HomeHomeopathyButton>
-                    Saznajte više
-                </HomeHomeopathyButton>
+                <Link
+                    href="/povijest-homeopatije"
+                    passHref={true}
+                >
+                    <HomeHomeopathyButton>
+                        Saznajte više
+                    </HomeHomeopathyButton>
+                </Link>
             </HomeHomeopathyTitleWrapper>
         </HomeHomeopathyRoot>
     )

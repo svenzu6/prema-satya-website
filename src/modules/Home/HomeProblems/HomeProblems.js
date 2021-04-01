@@ -5,7 +5,6 @@ import {
     HomeProblemsRoot,
     HomeProblemsText,
     HomeProblemsTitle,
-    HomeProblemsTitleFill,
     HomeProblemsTitleWrapper,
     HomeProblemsWrapper,
 } from './HomeProblems.styles'
@@ -16,10 +15,10 @@ export const HomeProblems = () => {
             <HomeProblemsTitleWrapper>
                 <HomeProblemsTitle>
                     Pomaže kod svih
-                </HomeProblemsTitle>
-                <HomeProblemsTitleFill>
+                    {' '}
+                    <br />
                     'modernih' problema
-                </HomeProblemsTitleFill>
+                </HomeProblemsTitle>
                 <HomeProblemsDescription>
                     Homeopatija je “cjelovita”, što znači da liječi
                     {' '}
@@ -66,7 +65,7 @@ export const HomeProblems = () => {
                         src="/icons/checkmark.svg"
                         width={30}
                     />
-                    Povisena temperatura
+                    Povišena temperatura
                 </HomeProblemsText>
                 <HomeProblemsText>
                     <Image
@@ -90,7 +89,7 @@ export const HomeProblems = () => {
                         src="/icons/checkmark.svg"
                         width={30}
                     />
-                    Kozne bolesti
+                    Kožne bolesti
                 </HomeProblemsText>
                 <HomeProblemsText>
                     <Image
@@ -98,7 +97,7 @@ export const HomeProblems = () => {
                         src="/icons/checkmark.svg"
                         width={30}
                     />
-                    Srcane bolesti
+                    Srčane bolesti
                 </HomeProblemsText>
                 <HomeProblemsText>
                     <Image

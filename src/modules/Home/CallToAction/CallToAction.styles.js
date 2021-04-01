@@ -16,9 +16,7 @@ export const CallToActionRoot = styled.div`
 `
 
 export const CallToActionWrapper = styled.div`
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 450px;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center; 
@@ -27,24 +25,6 @@ export const CallToActionWrapper = styled.div`
 export const CallToActionTitle = styled.h1`
     color: #ffffff;
     font-family: "Karla-Extra-Light";
-    font-size: 35px;     
-`
-
-export const CallToActionButton = styled.button`
-    background-color: #9aa37b;
-    border-radius: 30px;
-    color: #ffffff;
-    font-family: "Karla-Extra-Light";  
-    border: 0.125rem solid #9aa37b;
-    font-size: 18px;
-    width: 200px;
-    height: 60px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
-    &:hover {
-        color: black; background-color: white;
-        };
-    cursor: pointer;
+    font-size: 45px;   
+    text-align: center;  
 `
