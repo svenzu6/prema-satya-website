@@ -1,6 +1,5 @@
+import { GlobalStyles } from '../components/_app.styles.js'
 import Layout from '../components/Layout/Layout'
-
-import { GlobalStyles } from './Styles/_app.styles.js'
 
 function MyApp({ Component, pageProps }) {
     return (
