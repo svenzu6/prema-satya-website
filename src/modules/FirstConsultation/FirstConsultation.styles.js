@@ -15,6 +15,7 @@ export const FirstConsultationHeroRoot = styled.div`
     background-image: linear-gradient(#00000085, #00000085),url("/images/lavanda.jpg"); 
     background-position: center; 
     margin-bottom: 10px;
+    text-align: center;
 `
 
 export const FirstConsultationTitle = styled.h2`
@@ -37,18 +38,17 @@ export const FirstConsultationText = styled.p`
     margin-bottom: 15px;
 `
 
-export const FirstConsultationTextDots = styled.p`
+export const FirstConsultationTextDots = styled.li`
     font-size: 19px;
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-weight: 200;
     margin-bottom: 15px;
-    padding-left: 30px;
 `
 
 export const FirstConsultationTextContainer = styled.div`
     background: #ffffff;
     display: flex;
     flex-direction: column;
-    padding: 50px 200px;
+    padding: 50px 7%;
 `
