@@ -11,6 +11,7 @@ export const HomeHomeopathyTitleWrapper = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 50px;
 `
 
 export const HomeHomeopathyTitle = styled.h1`
@@ -33,8 +34,6 @@ export const HomeHomeopathyDescription = styled.h1`
     font-family: "Karla-Extra-Light";
     font-size: 20px;     
     margin-bottom: 20px;   
-    padding-left: 30%;
-    padding-right: 30%;
 `
 
 export const HomeHomeopathyButton = styled.button`
