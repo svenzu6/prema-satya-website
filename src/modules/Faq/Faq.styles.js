@@ -4,12 +4,14 @@ export const FaqContainer = styled.div`
     background: #ffffff; 
 `
 
+export const FaqContent = styled.div`
+    padding: 100px 5%;
+`
+
 export const FaqTitle = styled.h1`
     color: #000000;
     font-family: "Karla";
     font-size: 30px;   
-    padding-top: 40px;
-    padding-left: 40px;
 `
 
 export const FaqDescription = styled.p`
@@ -19,18 +21,14 @@ export const FaqDescription = styled.p`
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-weight: 200;
-    padding-left: 40px;
-    padding-right: 700px;
 `
 
 export const FaqGrid = styled.div`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-column-gap: 50px;
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    row-gap: 30px;
     padding-top: 100px;
 `
 
@@ -50,13 +48,5 @@ export const FaqText = styled.p`
     font-weight: 200;
     text-align: left;
     padding-left: 2px;
-    padding-top: 8px;
-`
-export const FaqGridColumA = styled.div`
-`
-
-export const FaqGridColumB = styled.div`
-`
-
-export const FaqGridColumC = styled.div`
+    padding-top: 20px;
 `
