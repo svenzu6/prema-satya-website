@@ -55,12 +55,6 @@ export default function About() {
                     lijek koji otapa traume,pomaže podsvijesti da proradi blokade i pruža
                     klijentima mogućnost ostvarenja vlastitih potencijala te ispunjen, zdrav
                     i sretan život.
-                    <br />
-                    <br />
-                    • Član sam Hrvatske udruge homeopata
-                    <br />
-                    <br />
-                    • Imam licencu za samostalni rad HUH-a
                 </AboutMeText>
             </div>
         </AboutMeContainer>
