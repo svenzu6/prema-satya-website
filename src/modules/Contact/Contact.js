@@ -3,9 +3,9 @@ import ParagraphTemplate from '../../components/TextTemplate/ParagraphTemplate'
 import TitleTemplate from '../../components/TextTemplate/TitleTemplate'
 
 import {
-    ContactSubtitle,
     ContactContainer,
     ContactContent,
+    ContactSubtitle,
 } from './Contact.styles'
 
 export default function Contact() {
