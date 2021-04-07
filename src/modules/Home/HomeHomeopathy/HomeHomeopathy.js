@@ -20,8 +20,14 @@ export const HomeHomeopathy = () => {
                     Prirodan Način Liječenja
                 </HomeHomeopathyTitle>
                 <HomeHomeopathyDescription>
-                    Homeopatija (zasnovana po načelima dr. Hahnemanna) je jedna od najstarijih
-                    i najšire prihvaćenih metoda prirodne medicine koja putem individualnog
+                    Homeopatija (zasnovana po načelima dr. Hahnemanna)
+                    {' '}
+                    <br />
+                    je jedna od najstarijih
+                    i najšire prihvaćenih metoda prirodne
+                    {' '}
+                    <br />
+                    medicine koja putem individualnog
                     pristupa osobi
                     {' '}
                     <br />

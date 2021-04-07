@@ -11,7 +11,8 @@ export const HomeCardsRoot = styled.div`
 
 export const HomeCardsWrapper = styled(motion.div)`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 150px;
     justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 20px;
 `

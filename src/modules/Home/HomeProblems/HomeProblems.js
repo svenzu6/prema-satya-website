@@ -3,10 +3,8 @@ import Image from 'next/image'
 import {
     HomeProblemsDescription,
     HomeProblemsRoot,
-    HomeProblemsText,
     HomeProblemsTitle,
     HomeProblemsTitleWrapper,
-    HomeProblemsWrapper,
 } from './HomeProblems.styles'
 
 export const HomeProblems = () => {
@@ -34,80 +32,7 @@ export const HomeProblems = () => {
                     na SAMOISCJELJENJE.
                 </HomeProblemsDescription>
             </HomeProblemsTitleWrapper>
-            <HomeProblemsWrapper>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Alergije
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Nesanica
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Tegobe kod djece
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Povišena temperatura
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Emocionalne tegobe
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Infektivne bolesti
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Kožne bolesti
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Srčane bolesti
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Probavne tegobe
-                </HomeProblemsText>
-            </HomeProblemsWrapper>
+            <div />
         </HomeProblemsRoot>
     )
 }
