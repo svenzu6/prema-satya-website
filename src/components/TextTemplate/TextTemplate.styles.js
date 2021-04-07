@@ -21,6 +21,7 @@ export const HeroImage = styled.div`
 export const TextTemplateTitle = styled.h1`
     color: #ffffff; 
     font-family: "Rubik";
+    text-align: center;
 `
 
 export const ParagraphStyle = styled.div`
