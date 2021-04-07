@@ -14,5 +14,5 @@ export const HomeCardsWrapper = styled(motion.div)`
     grid-column-gap: 150px;
     justify-content: space-around;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    row-gap: 20px;
+    row-gap: 30px;
 `
