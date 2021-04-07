@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const HomeProblemsRoot = styled.div`
     padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 `
 
 export const HomeProblemsTitleWrapper = styled.div`
@@ -24,25 +26,4 @@ export const HomeProblemsDescription = styled.h1`
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-size: 18px;       
-`
-
-export const HomeProblemsWrapper = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-column-gap: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    padding: 70px 250px 100px 250px;
-`
-
-export const HomeProblemsText = styled.div`
-    font-family: "Karla-Extra-Light";  
-    font-size: 19px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
 `
