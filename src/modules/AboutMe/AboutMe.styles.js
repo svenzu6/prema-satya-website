@@ -2,19 +2,9 @@ import styled from 'styled-components'
 
 export const AboutMeContainer = styled.div`
     background: #Ffffff;
-    display: flex;
-    flex-direction: row; 
-`
-
-export const AboutMeLeftContainer = styled.div`
-    width: 50%;
-    padding: 50px;
-`
-
-export const AboutMeRightContainer = styled.div`
-    width: 50%;
-    padding-right: 100px;
-    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 5px 12px;
 `
 
 export const AboutMeTitle = styled.h1`
@@ -31,6 +21,5 @@ export const AboutMeText = styled.p`
     color: #000000;
     font-family: "Karla-Extra-Light";
     font-weight: 200;
-    padding: 10px;
     padding-bottom: 40px;
 `
