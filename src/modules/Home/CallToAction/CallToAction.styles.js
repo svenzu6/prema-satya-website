@@ -13,7 +13,7 @@ export const CallToActionRoot = styled.div`
     align-items: center;
     background-size: cover;   
     background-image: linear-gradient(#00000085, #00000085),url("/images/hero.jpg");
-    padding: 20px;  
+    padding: 40px;  
 `
 
 export const CallToActionTitle = styled.h1`
