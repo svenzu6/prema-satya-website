@@ -12,14 +12,8 @@ export const CallToActionRoot = styled.div`
     justify-content: center;
     align-items: center;
     background-size: cover;   
-    background-image: linear-gradient(#00000085, #00000085),url("/images/hero.jpg");  
-`
-
-export const CallToActionWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
+    background-image: linear-gradient(#00000085, #00000085),url("/images/hero.jpg");
+    padding: 20px;  
 `
 
 export const CallToActionTitle = styled.h1`
@@ -27,4 +21,5 @@ export const CallToActionTitle = styled.h1`
     font-family: "Karla-Extra-Light";
     font-size: 45px;   
     text-align: center;  
+    
 `
