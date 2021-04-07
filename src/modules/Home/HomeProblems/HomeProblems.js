@@ -9,6 +9,17 @@ import {
     HomeProblemsWrapper,
 } from './HomeProblems.styles'
 
+const issues = [
+    'Alergije',
+    'Nesanica',
+    'Tegobe kod djece',
+    'Povišena temperatura',
+    'Emocionalne tegobe',
+    'Infektivne bolesti',
+    'Kožne bolesti',
+    'Srčane bolesti',
+    'Probavne tegobe',
+]
 export const HomeProblems = () => {
     return (
         <HomeProblemsRoot>
@@ -35,78 +46,18 @@ export const HomeProblems = () => {
                 </HomeProblemsDescription>
             </HomeProblemsTitleWrapper>
             <HomeProblemsWrapper>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Alergije
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Nesanica
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Tegobe kod djece
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Povišena temperatura
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Emocionalne tegobe
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Infektivne bolesti
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Kožne bolesti
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Srčane bolesti
-                </HomeProblemsText>
-                <HomeProblemsText>
-                    <Image
-                        height={30}
-                        src="/icons/checkmark.svg"
-                        width={30}
-                    />
-                    Probavne tegobe
-                </HomeProblemsText>
+                {issues.map((issue) => {
+                    return (
+                        <HomeProblemsText key={issue}>
+                            <Image
+                                height={30}
+                                src="/icons/checkmark.svg"
+                                width={30}
+                            />
+                            {issue}
+                        </HomeProblemsText>
+                    )
+                })}
             </HomeProblemsWrapper>
         </HomeProblemsRoot>
     )
