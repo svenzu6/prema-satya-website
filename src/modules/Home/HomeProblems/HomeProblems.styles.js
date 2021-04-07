@@ -8,8 +8,6 @@ export const HomeProblemsTitleWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 200px;
-    width: 400px;
     background-size: cover;   
     background-image: url("/icons/blob.svg"); 
 `
