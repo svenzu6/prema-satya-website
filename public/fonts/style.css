@@ -7,14 +7,14 @@
 }
 @font-face {
     font-family: "Karla";
-    src: url("/fonts/Karla/Karla-VariableFont.ttf");
+    src: url("/fonts/Karla/Karla.ttf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
     font-family: "Rubik";
-    src: url("/fonts/Rubik/Rubik-VariableFont.ttf");
+    src: url("/fonts/Rubik/Rubik.ttf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
