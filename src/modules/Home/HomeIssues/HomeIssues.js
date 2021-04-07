@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 import {
+    HomeIssuesRoot,
     HomeProblemsText,
-    HomeProblemsWrapper,
 } from './HomeIssues.styles'
 
 const issues = [
@@ -19,7 +19,7 @@ const issues = [
 
 export const HomeIssues = () => {
     return (
-        <HomeProblemsWrapper>
+        <HomeIssuesRoot>
             {issues.map((issue) => {
                 return (
                     <HomeProblemsText key={issue}>
@@ -32,6 +32,6 @@ export const HomeIssues = () => {
                     </HomeProblemsText>
                 )
             })}
-        </HomeProblemsWrapper>
+        </HomeIssuesRoot>
     )
 }

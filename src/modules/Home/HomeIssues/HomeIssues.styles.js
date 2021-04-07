@@ -1,22 +1,23 @@
 import styled from 'styled-components'
 
-export const HomeProblemsWrapper = styled.div`
+export const HomeIssuesRoot = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    grid-column-gap: 50px;
+    column-gap: 50px;
     justify-content: center;
     align-items: center;
     text-align: center; 
-    padding: 70px 250px 100px 250px;
+    padding: 120px 250px ;
 `
 
 export const HomeProblemsText = styled.div`
     font-family: "Karla-Extra-Light";  
     font-size: 19px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30px 1fr;
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
     text-align: center; 
+    column-gap: 10px;
 `
