@@ -1,18 +1,20 @@
 import styled from 'styled-components'
 
 export const NavRoot = styled.div`
-    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    column-gap: 600px;
+    text-align: center; 
     min-height: 60px;
-    background: #ffffff; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-	position: sticky;
-	top: 0;
+    position: sticky;
     color: #000000;
     box-shadow: none;
-    z-index: 800;
+    z-index: 800; 
+    justify-items: center;
+    align-items: center;
+    top: 0;
+    box-shadow: none;
+    background: #ffffff; 
 `
 
 export const NavbarRightSide = styled.div`
@@ -32,6 +34,6 @@ export const NavbarLeftSide = styled.div`
 
 export const NavTitle = styled.a`
     font-size: 25px;
-    margin-left: 15px;
     font-family: "Karla-Extra-Light";
+    text-align: center;
 `

@@ -11,4 +11,5 @@ export const FooterSection = styled.div`
     width: 100%;  
     min-height: 60px; 
     border-top: 1px solid #cecece;
+    font-family: "Karla-Extra-Light";
 `

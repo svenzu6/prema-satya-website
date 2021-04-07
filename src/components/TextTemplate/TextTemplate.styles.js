@@ -21,12 +21,12 @@ export const HeroImage = styled.div`
 export const TextTemplateTitle = styled.h1`
     color: #ffffff; 
     font-family: "Rubik";
+    text-align: center;
 `
 
 export const ParagraphStyle = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 50px 200px;
     font-size: 20px;
     color: #000000;
     font-family: "Karla-Extra-Light";

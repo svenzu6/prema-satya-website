@@ -3,6 +3,7 @@ import Link from 'next/link'
 import {
     HomeHomeopathyButton,
     HomeHomeopathyDescription,
+    HomeHomeopathyDescriptionWrapper,
     HomeHomeopathyRoot,
     HomeHomeopathySubTitle,
     HomeHomeopathyTitle,
@@ -19,21 +20,16 @@ export const HomeHomeopathy = () => {
                 <HomeHomeopathyTitle>
                     Prirodan Način Liječenja
                 </HomeHomeopathyTitle>
-                <HomeHomeopathyDescription>
-                    Homeopatija (zasnovana po načelima dr. Hahnemanna)
-                    {' '}
-                    <br />
-                    je jedna od najstarijih
-                    i najšire prihvaćenih metoda prirodne
-                    {' '}
-                    <br />
-                    medicine koja putem individualnog
-                    pristupa osobi
-                    {' '}
-                    <br />
-                    {' '}
-                    propisuje homeopatske lijekove.
-                </HomeHomeopathyDescription>
+                <HomeHomeopathyDescriptionWrapper>
+                    <HomeHomeopathyDescription>
+                        Homeopatija (zasnovana po načelima dr. Hahnemanna)
+                        je jedna od najstarijih
+                        i najšire prihvaćenih metoda prirodne
+                        medicine koja putem individualnog
+                        pristupa osobi
+                        propisuje homeopatske lijekove.
+                    </HomeHomeopathyDescription>
+                </HomeHomeopathyDescriptionWrapper>
                 <Link
                     href="/povijest-homeopatije"
                     passHref={true}

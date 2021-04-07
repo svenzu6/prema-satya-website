@@ -2,8 +2,6 @@ import Image from 'next/image'
 
 import {
     AboutMeContainer,
-    AboutMeLeftContainer,
-    AboutMeRightContainer,
     AboutMeText,
     AboutMeTitle,
 } from './AboutMe.styles'
@@ -11,14 +9,14 @@ import {
 export default function About() {
     return (
         <AboutMeContainer>
-            <AboutMeLeftContainer>
+            <div>
                 <Image
                     height={2000}
                     src="/images/mirjana.png"
                     width={2000}
                 />
-            </AboutMeLeftContainer>
-            <AboutMeRightContainer>
+            </div>
+            <div>
                 <AboutMeTitle>
                     Mirjana
                     {' '}
@@ -64,7 +62,7 @@ export default function About() {
                     <br />
                     • Imam licencu za samostalni rad HUH-a
                 </AboutMeText>
-            </AboutMeRightContainer>
+            </div>
         </AboutMeContainer>
     )
 }

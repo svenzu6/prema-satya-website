@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const HomeHomeopathyRoot = styled.div`
-    height: 400px;
-    min-height: 400px;
     padding: 50px 40px;
 `
 export const HomeHomeopathyTitleWrapper = styled.div`
@@ -27,6 +25,16 @@ export const HomeHomeopathySubTitle = styled.h1`
     font-family: "Karla";
     font-size: 20px;     
     margin-bottom: 20px;   
+`
+
+export const HomeHomeopathyDescriptionWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 50px;
+    max-width: 520px;
 `
 
 export const HomeHomeopathyDescription = styled.h1`

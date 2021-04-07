@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
 export const HomeProblemsRoot = styled.div`
-    padding: 0px 40px;
+    padding: 100px 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 `
 
 export const HomeProblemsTitleWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-size: cover;   
+    background-size: cover; 
     background-image: url("/icons/blob.svg"); 
 `
 

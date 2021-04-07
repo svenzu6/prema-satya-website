@@ -53,62 +53,66 @@ export default function FirstConsultation() {
                     financijski gubitci, gubitak posla, kriza identiteta i drugi životni stresovi)
                     – svaka ozbiljnija bolest koja je mogla utjecati na opće zdravlje klijenta.
                 </FirstConsultationText>
-                <FirstConsultationTextDots>
-                    • Svi tretmani koje je osoba primila  tokom
-                    života jer terapije često mogu biti supresivne (potiskujuće).
-                    Važno je razmotriti primanje lijekova, operacije ,psihoterapije,
-                    tireoidni hormoni, kontracepcije, kortikosteroidi, antibiotici, cjepiva i reakcije
-                    na njih.
-                </FirstConsultationTextDots>
+                <ul>
+                    <FirstConsultationTextDots>
+                        Svi tretmani koje je osoba primila  tokom
+                        života jer terapije često mogu biti supresivne (potiskujuće).
+                        Važno je razmotriti primanje lijekova, operacije ,psihoterapije,
+                        tireoidni hormoni, kontracepcije, kortikosteroidi, antibiotici, cjepiva i reakcije
+                        na njih.
+                    </FirstConsultationTextDots>
+                </ul>
                 <FirstConsultationText>
                     Učestala pitanja:
                 </FirstConsultationText>
-                <FirstConsultationTextDots>
-                    • Okruženje – osjetljivost na promjene vremena, tolerancija prema temperaturi,
-                    vlažnosti zraka, suncu, vjetru, zatvorenom prostoru i sl.
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Vrijeme, sezone – dolazi li do nekih promjena tokom
-                    određenih sezona ili doba dana
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Spavanje i snovi- kvaliteta spavanja, položaji spavanja,
-                    vrijeme i razlozi buđenja, otkrivanje ili pokrivanje
-                    određenih dijelova tijela, obični snovi ili noćne more,
-                    somnabulizam, zvukovi tijekom spavanja, itd.
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Ishrana – apetit, žeđ, omiljena hrana, averzije ili pogoršanja
-                    od određene hrane.
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Seksualnost- smanjena ili povećana seksualna želja,
-                    posebne opsesije vezane za seks
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Tjelesni sistemi – funkcioniranje cirkulatornog,
-                    endokrinog, gastrointestinalnog, respiratnornog, kože,
-                    menstrualna funkcija i trudnoća.
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Životna energija – kvaliteta životne energije u
-                    svakodnevnom životu i različitim okolnostima
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Emocije- strahovi, fobije, iritabilnost,
-                    nedostatak samopouzdanja nakon trudnoće.
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Odnosi-  prema voljenim osobama, prijateljima,
-                    radnim kolegama
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Mentalna razina- pamćenje, koncentracija,
-                    halucinacije, deluzije
-                </FirstConsultationTextDots>
-                <FirstConsultationTextDots>
-                    • Obiteljska povijest bolesti
-                </FirstConsultationTextDots>
+                <ul>
+                    <FirstConsultationTextDots>
+                        Okruženje – osjetljivost na promjene vremena, tolerancija prema temperaturi,
+                        vlažnosti zraka, suncu, vjetru, zatvorenom prostoru i sl.
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Vrijeme, sezone – dolazi li do nekih promjena tokom
+                        određenih sezona ili doba dana
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Spavanje i snovi - kvaliteta spavanja, položaji spavanja,
+                        vrijeme i razlozi buđenja, otkrivanje ili pokrivanje
+                        određenih dijelova tijela, obični snovi ili noćne more,
+                        somnabulizam, zvukovi tijekom spavanja, itd.
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Ishrana – apetit, žeđ, omiljena hrana, averzije ili pogoršanja
+                        od određene hrane.
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Seksualnost - smanjena ili povećana seksualna želja,
+                        posebne opsesije vezane za seks
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Tjelesni sistemi – funkcioniranje cirkulatornog,
+                        endokrinog, gastrointestinalnog, respiratnornog, kože,
+                        menstrualna funkcija i trudnoća.
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Životna energija – kvaliteta životne energije u
+                        svakodnevnom životu i različitim okolnostima
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Emocije - strahovi, fobije, iritabilnost,
+                        nedostatak samopouzdanja nakon trudnoće.
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Odnosi - prema voljenim osobama, prijateljima,
+                        radnim kolegama
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Mentalna razina - pamćenje, koncentracija,
+                        halucinacije, deluzije
+                    </FirstConsultationTextDots>
+                    <FirstConsultationTextDots>
+                        Obiteljska povijest bolesti
+                    </FirstConsultationTextDots>
+                </ul>
                 <FirstConsultationText>
                     Nakon uzimanja cijelog slučaja, homeopat  u
                     završnoj analizi (diferencijacija),
