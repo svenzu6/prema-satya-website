@@ -5,7 +5,7 @@ export const FaqContainer = styled.div`
 `
 
 export const FaqContent = styled.div`
-    padding: 100px 5%;
+    padding: 50px 5%;
 `
 
 export const FaqTitle = styled.h1`
@@ -29,7 +29,7 @@ export const FaqGrid = styled.div`
     grid-column-gap: 50px;
     justify-content: space-around;
     row-gap: 30px;
-    padding-top: 100px;
+    padding-top: 60px;
 `
 
 export const FaqSubTitle = styled.h1`
