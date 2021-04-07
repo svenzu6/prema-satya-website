@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const CallToActionContainer = styled.div`
     background: #ffffff;
-    padding-bottom: 40px;
+    padding: 100px 0;
 `
 
 export const CallToActionRoot = styled.div`

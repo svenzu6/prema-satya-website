@@ -9,6 +9,7 @@ export const HomeHeroRoot = styled.div`
     align-items: center;
     background-size: cover;   
     background-image: linear-gradient(#00000085, #00000085),url("/images/hero.jpg");  
+    padding: 20px;
 `
 
 export const HomeHeroTitle = styled.h1`
@@ -16,6 +17,7 @@ export const HomeHeroTitle = styled.h1`
     font-size: 60px;
     margin-bottom: 20px;
     font-family: 'Karla';
+    text-align: center;
 `
 
 export const HomeHeroDescription = styled.p`
@@ -23,14 +25,18 @@ export const HomeHeroDescription = styled.p`
     color: #ffffff;
     font-family: "Karla-Extra-Light";
     font-weight: 200;
+    text-align: center;
 `
 
 export const HomeHeroButtonWrapper = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
     justify-content: space-around;
-    padding: 60px;  
+    padding-top: 60px;  
+    min-width: 100px;
+    max-width: 500px;
 `
 
 export const HomeHeroButtonLeft = styled.button`
