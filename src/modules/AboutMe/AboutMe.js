@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import {
     AboutMeContainer,
+    AboutMeContentRight,
     AboutMeText,
     AboutMeTitle,
 } from './AboutMe.styles'
@@ -16,7 +17,7 @@ export default function About() {
                     width={2000}
                 />
             </div>
-            <div>
+            <AboutMeContentRight>
                 <AboutMeTitle>
                     Mirjana
                     {' '}
@@ -56,7 +57,7 @@ export default function About() {
                     klijentima mogućnost ostvarenja vlastitih potencijala te ispunjen, zdrav
                     i sretan život.
                 </AboutMeText>
-            </div>
+            </AboutMeContentRight>
         </AboutMeContainer>
     )
 }
