@@ -26,7 +26,7 @@ export default function Faq() {
                 <br />
                 <br />
                 <FaqDescription>
-                    Homeopatija (zasnovana po načelima dr. Hahnemanna) je jedna od najstarijih i najšire
+                    Homeopatija (zasnovana po načelima dr. Hahnemanna); jedna je od najstarijih i najšire
                     prihvaćenih metoda prirodne medicine koja putem individualnog pristupa klijentu propisuje
                     homeopatske lijekove.
                     Mi ljudi smo duhovno- materijalna bića. Našim

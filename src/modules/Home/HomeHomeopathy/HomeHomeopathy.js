@@ -22,8 +22,8 @@ export const HomeHomeopathy = () => {
                 </HomeHomeopathyTitle>
                 <HomeHomeopathyDescriptionWrapper>
                     <HomeHomeopathyDescription>
-                        Homeopatija (zasnovana po načelima dr. Hahnemanna)
-                        je jedna od najstarijih
+                        Homeopatija (zasnovana po načelima dr. Hahnemanna);
+                        jedna je od najstarijih
                         i najšire prihvaćenih metoda prirodne
                         medicine koja putem individualnog
                         pristupa osobi

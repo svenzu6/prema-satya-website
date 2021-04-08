@@ -23,6 +23,7 @@ export const AboutMeText = styled.p`
     font-weight: 200;
     padding-bottom: 40px;
 `
+
 export const AboutMeContentRight = styled.div`
     padding: 20px 8%;
 `
