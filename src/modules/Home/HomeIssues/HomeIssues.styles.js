@@ -7,7 +7,7 @@ export const HomeIssuesRoot = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center; 
-    padding: 0 10%;
+    padding: 0 12%;
 `
 
 export const HomeProblemsText = styled.div`
