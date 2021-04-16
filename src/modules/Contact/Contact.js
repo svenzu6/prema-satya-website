@@ -49,6 +49,9 @@ export default function Contact() {
                     <br />
                     <br />
                     *Možete poslati i SMS poruku za dogovor savjetovanja
+                    <br />
+                    <br />
+                    *Mogućnost Online konzultacije putem video poziva
                 </ParagraphTemplate>
             </ContactContent>
         </ContactContainer>
