@@ -7,9 +7,9 @@ import {
     UseOfContent,
 } from './UseOf.styles'
 
-export default function Contact() {
+export default function UseOf() {
     return (
-        <>
+        <UseOfContainer>
             <HeroTemplate imageName="lavanda">
                 <TitleTemplate>
                     PRIMJENA HOMEOPATIJE
@@ -132,6 +132,7 @@ export default function Contact() {
                     i pripada kategoriji znakova iscjeljenja.
                 </ParagraphTemplate>
             </UseOfContent>
-        </>
+        </UseOfContainer>
+
     )
 }
