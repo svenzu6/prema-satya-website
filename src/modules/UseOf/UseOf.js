@@ -17,7 +17,7 @@ export default function Contact() {
             </HeroTemplate>
             <UseOfContent>
                 <ParagraphTemplate>
-                    Gdje sve možemo primjeniti homeopatiju?
+                    Gdje se primjenjuje homeopatija?
                     <br />
                     <ul>
                         <li>
