@@ -4,6 +4,7 @@ export const HomeProblemsRoot = styled.div`
     padding: 100px 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    padding-bottom: 200px;
 `
 
 export const HomeProblemsTitleWrapper = styled.div`
